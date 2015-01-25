@@ -29,6 +29,10 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+TEMPLATE_LOADERS = (
+    'django.template.loaders.app_directories.Loader',
+)
+
 INSTALLED_APPS = (
     'django.contrib.admin',
     'django.contrib.auth',
